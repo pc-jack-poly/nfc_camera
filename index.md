@@ -21,6 +21,37 @@ title: ""
 <!-- ## Teaser Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-JItdyhV1ik" title="IEEE S&amp;P 2023 Teaser Video &quot;Inducing Wireless Chargers to Voice Out for Inaudible Command Attacks&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
+## Compatibility: Universal Support for Commercial Barcode Standards
+
+Our approach is compatible with nearly all existing commercial barcode standards, ensuring broad applicability across diverse retail and industrial environments.
+
+<div class="barcode-gallery">
+  <div class="barcode-item">
+    <img src="{{ 'assets/images/EAN8.png' | relative_url }}" alt="EAN-8 Barcode">
+    <div class="barcode-label">EAN-8</div>
+  </div>
+  <div class="barcode-item">
+    <img src="{{ 'assets/images/EAN13.png' | relative_url }}" alt="EAN-13 Barcode">
+    <div class="barcode-label">EAN-13</div>
+  </div>
+  <div class="barcode-item">
+    <img src="{{ 'assets/images/UPC-A.png' | relative_url }}" alt="UPC-A Barcode">
+    <div class="barcode-label">UPC-A</div>
+  </div>
+  <div class="barcode-item">
+    <img src="{{ 'assets/images/UPCE.png' | relative_url }}" alt="UPC-E Barcode">
+    <div class="barcode-label">UPC-E</div>
+  </div>
+  <div class="barcode-item">
+    <img src="{{ 'assets/images/CODE39.png' | relative_url }}" alt="Code 39 Barcode">
+    <div class="barcode-label">Code 39</div>
+  </div>
+  <div class="barcode-item">
+    <img src="{{ 'assets/images/CODE128.png' | relative_url }}" alt="Code 128 Barcode">
+    <div class="barcode-label">Code 128</div>
+  </div>
+</div>
+
 ## Demo: NFC-to-Camera Communication with EAN13 Format
 <div class="video-container-50-left">
   <video controls preload="metadata">
