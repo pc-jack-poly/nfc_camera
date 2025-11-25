@@ -1,10 +1,10 @@
 theme: jekyll-theme-cayman
 title: Secure NFC-to-Camera Communication via Commercial Barcodes
 description: Cheng Peng, Donghui Dai and Lei Yang, Department of Computing, The Hong Kong Polytechnic University
-baseurl: "/nfc_camera"
+baseurl: "/NFC2Camera"
 titles_from_headings:
   enabled: false
 polyu_logo_url: assets/images/polyu-logo.png
 polyu_comp_logo_url: assets/images/polyu-comp-logo.png
 github:
-  repository_url: https://github.com/pc-jack-poly/nfc_camera
+  repository_url: https://github.com/pc-jack-poly/NFC2Camera
