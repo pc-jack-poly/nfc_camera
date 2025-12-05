@@ -253,7 +253,8 @@
   float: right;
   width: 35%;
   max-width: 420px;
-  margin: 0.25rem 0 0.5rem 1rem; /* space from text on left */
+  margin: 0.25rem 0 0.3rem 1rem !important; /* space from text on left */
+  padding-bottom: 0 !important;
 }
 
 .figure-right .pdf-frame,
@@ -284,7 +285,8 @@
   color: #555;
   text-align: center;
   margin-top: 0.35rem;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 @media screen and (max-width: 800px) {
