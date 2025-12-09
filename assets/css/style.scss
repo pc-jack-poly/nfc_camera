@@ -56,20 +56,6 @@
   color: #000;
 }
 
-// Add decorative markers before all h2 headings
-.main-content h2::before {
-  content: "▸ ";
-  color: #159957;
-  font-weight: bold;
-  margin-right: 0.5rem;
-}
-
-// Reduce spacing between headings and content
-.main-content h2 {
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-
 // Header buttons container for logo and GitHub button
 .header-buttons {
   display: flex;
@@ -219,7 +205,7 @@
 
 /* Left-aligned 50% width variant */
 .video-container-50-left {
-  width: 70%;
+  width: 50%;
   margin: 1.5rem 0; /* left aligned */
 }
 
@@ -253,8 +239,7 @@
   float: right;
   width: 35%;
   max-width: 420px;
-  margin: 0.25rem 0 0.3rem 1rem !important; /* space from text on left */
-  padding-bottom: 0 !important;
+  margin: 0.25rem 0 1rem 1rem; /* space from text on left */
 }
 
 .figure-right .pdf-frame,
@@ -285,8 +270,6 @@
   color: #555;
   text-align: center;
   margin-top: 0.35rem;
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
 }
 
 @media screen and (max-width: 800px) {
